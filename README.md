@@ -9,3 +9,5 @@ https://github.com/TejaswiKodithala/Mini-Project/tree/main/3.%20Data%20Collectio
 https://github.com/TejaswiKodithala/Mini-Project/tree/main/4.%20Model%20Development%20Phase
 # Model Optimization and Tuning Phase Link
 https://github.com/TejaswiKodithala/Mini-Project/tree/main/5.%20Model%20Optimization%20and%20Tuning%20Phase
+# Falsk Floder Link
+https://github.com/TejaswiKodithala/Mini-Project/tree/main/6.%20Project%20Excutable%20files/Flask
