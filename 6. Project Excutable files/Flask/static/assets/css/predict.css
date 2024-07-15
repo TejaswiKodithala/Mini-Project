@@ -1,0 +1,28 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/predictpic.png');
+    object-fit: contain;
+    background-size:100% 750px;
+    background-repeat: no-repeat;
+}
+#lig{
+    background: linear-gradient(to bottom right, rgba(177, 177, 177, 0.5), rgba(168, 168, 168, 0.5), rgba(101, 103, 104,0.5) );
+    width: 100%;
+    height: 750px;
+    margin:  0;
+}
+#name{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 12%;
+    padding: 15px;
+    color: rgb(245, 242, 238);
+
+}
+#output{
+    text-align: center;
+    color: white;
+    margin-top:10%;
+}

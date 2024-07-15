@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blue Berry Yield Prediction details</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/details.css') }}">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <div id="lg">
+            <div id="heads">
+            <header id="name">BerryYield</header>
+            <a href="/" id="home" target="_blank">Home</a>
+            </div>
+           <header id="head">Discover the Blueberry Yield Prediction Form</header>
+                <div id="boxform"> 
+                    <form method="POST" action="/predict" id="form" autocomplete="on">
+                         <p id="fd">Please fill the details to predict the Yeild</p>
+                         <label for="cs">Clone Size:</label>
+                         <input type="number" id="cs" name="clonesize" placeholder="Enter Value between 0-100" step="0.01" required>
+                         <br>
+                         <label for="hb">Honey Bees:</label>
+                         <input type="number" id="hb" name="honeybee" placeholder="Enter Value between 0-100" step="0.01" required>
+                         <br>
+                         <label for="bum">Bumbles:</label>
+                         <input type="number" id="bum" name="bumbles" placeholder="Enter Value between 0-100" step="0.01" required>
+                         <br>
+                         <label for="an">Andrena:</label>
+                         <input type="number" id="an" name="andrena" placeholder="Enter Value between 0-100" step="0.01" required>
+                         <br>
+                         <label for="os">Osmia:</label>
+                         <input type="number" id="os" name="osmia" placeholder="Enter Value between 0-100" step="0.01" required>
+                         <br>
+                         <label for="maxut">Max of Upper TRange(The highest record of the upper band daily air temperature):</label>
+                         <input type="number" id="maxut" name="MaxOfUpperTRange" placeholder="Enter Value between 0-100" step="0.01" required>
+                         <br>
+                         <label for="minut">Min of Upper TRange(The lowest record of the upper band daily air temperature):</label>
+                         <input type="number" id="minut" name="MinOfUpperTRange" placeholder="Enter Value between 0-100" step="0.01" required>
+                          <br>
+                          <label for="avgut">Average of Upper TRange(The average record of the upper band daily air temperature):</label>
+                          <input type="number" id="avgut" name="AverageOfUpperTRange" placeholder="Enter Value between 0-100" step="0.01" required>
+                          <br>
+                          <label for="maxlt">Max of Lower TRange(The highest record of the lower band daily air temperature):</label>
+                          <input type="number" id="maxlt" name="MaxOfLowerTRange" placeholder="Enter Value between 0-100" step="0.01" required>
+                          <br>
+                          <label for="minlt">Min of Lower TRange(The lowest record of the lower band daily air temperature):</label>
+                          <input type="number" id="minlt" name="MinOfLowerTRange" placeholder="Enter Value between 0-100" step="0.01" required>
+                          <br>
+                          <label for="avglt">Average of Lower TRange(The average record of the lower band daily air temperature):</label>
+                          <input type="number" id="avglt" name="AverageOfLowerTRange" placeholder="Enter Value between 0-100" step="0.01" required>
+                          <br>
+                          <label for="rd">Ranining Days:</label>
+                          <input type="number" id="rd" name="RainingDays" placeholder="Enter Value between 0-100" step="0.01" required>
+                          <br>
+                          <label for="avgrd">Average Ranining Days:</label>
+                          <input type="number" id="avgrd" name="AverageRainingDays" placeholder="Enter Value between 0-100" step="0.01" required>
+                          <br>
+                          <label for="fs">Fruit Set:</label>
+                          <input type="number" id="fs" name="fruitset" placeholder="Enter Value between 0-100" step="0.01" required>
+                          <br>
+                          <label for="fm">Fruit Mass:</label>
+                          <input type="number" id="fm" name="fruitmass" placeholder="Enter Value between 0-100" step="0.01" required>
+                          <br>
+                          <label for="seeds">seeds:</label>
+                          <input type="number" id="seeds" name="seeds" placeholder="Enter Value between 0-100" step="0.01" required>
+                          <br>
+                      <button type="submit" id="predbut">Predict</button>
+                    </form>
+                    
+                </div>
+        </div>   
+    </body>
+</html>
+
+
+
+
